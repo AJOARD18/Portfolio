@@ -32,7 +32,6 @@ with col2:
     st.write("📫", EMAIL)
     
  
-image = Image.open('AJ.jfif')
 streamlit.image(image)
 
 
