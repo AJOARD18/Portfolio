@@ -16,7 +16,6 @@ SOCIAL_MEDIA = {
     "GitHub": "https://github.com/AJOARD18",
 }
 
-st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 col1, col2 = st.columns(2, gap="small")
 with col1:
     st.image(AJ.jfif, width=230)
