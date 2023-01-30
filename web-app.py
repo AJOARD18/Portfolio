@@ -1,15 +1,38 @@
 #Working on the code in a seperate kernel:
 #Copying and pasting:
 
-import streamlit
+import streamlit as st
 import pandas
 import requests
 from urllib.error import URLError
 from PIL import Image
  
 
-streamlit.title('Associate Data Consultant - Abdul-Hafiz Joarder')
+st.title('Associate Data Consultant - Abdul-Hafiz Joarder')
 
+EMAIL = "johndoe@email.com"
+SOCIAL_MEDIA = {
+    "LinkedIn": "https://www.linkedin.com/in/abdul-hafizjoarder/",
+    "GitHub": "https://github.com/AJOARD18",
+}
+
+st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.image(AJ.jfif, width=230)
+
+with col2:
+    st.title(NAME)
+    st.write(DESCRIPTION)
+    st.download_button(
+        label=" 📄 Download Resume",
+        data=PDFbyte,
+        file_name=resume_file.name,
+        mime="application/octet-stream",
+    )
+    st.write("📫", EMAIL)
+    
+ 
 image = Image.open('AJ.jfif')
 streamlit.image(image)
 
