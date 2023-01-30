@@ -10,7 +10,7 @@ from PIL import Image
 
 streamlit.title('Associate Data Consultant - Abdul-Hafiz Joarder')
 
-image = Image.open('AJ.jpg')
+image = Image.open('AJ.jfif')
 streamlit.image(image)
 
 
