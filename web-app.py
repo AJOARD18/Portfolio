@@ -22,8 +22,7 @@ with col1:
     st.image('AJ.jfif', width=230)
 
 with col2:
-    st.title(NAME)
-    st.write(DESCRIPTION)
+  
     st.download_button(
         label=" 📄 Download Resume",
         data=PDFbyte,
