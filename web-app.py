@@ -18,7 +18,7 @@ SOCIAL_MEDIA = {
 
 col1, col2 = st.columns(2, gap="small")
 with col1:
-    st.image(AJ.jfif, width=230)
+    st.image('AJ.jfif', width=230)
 
 with col2:
     st.title(NAME)
