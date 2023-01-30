@@ -10,8 +10,9 @@ from PIL import Image
 
 st.title('Associate Data Consultant - Abdul-Hafiz Joarder')
 
-EMAIL = "johndoe@email.com"
+EMAIL = "abdul.joarder@outlook.com"
 SOCIAL_MEDIA = {
+    "NAME": "Abdul-Hafiz Joarder",
     "LinkedIn": "https://www.linkedin.com/in/abdul-hafizjoarder/",
     "GitHub": "https://github.com/AJOARD18",
 }
