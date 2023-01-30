@@ -23,14 +23,14 @@ with col1:
 
     
  
-streamlit.image(image)
+st.image(image)
 
 
 
  
 
-streamlit.header('Profile')
-streamlit.text('I am an Associate Data Consultant with expertise in Excel and data cleaning. With\nvast knowledge of programming languages SQL and Python including various Pandas\nlibraries. Skilled in utilising data visualisation tools such as PowerBI and Tableau\nwith a strong ability to analyse and manipulate data, as well as a proven track\nrecord of effectively communicating high-quality, key insights to Stakeholders via\nwritten report or presentation.')
+st.header('Profile')
+st.text('I am an Associate Data Consultant with expertise in Excel and data cleaning. With\nvast knowledge of programming languages SQL and Python including various Pandas\nlibraries. Skilled in utilising data visualisation tools such as PowerBI and Tableau\nwith a strong ability to analyse and manipulate data, as well as a proven track\nrecord of effectively communicating high-quality, key insights to Stakeholders via\nwritten report or presentation.')
 
 
 
